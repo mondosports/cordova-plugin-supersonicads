@@ -42,7 +42,7 @@
         <source-file src="src/android/SupersonicAdsPlugin.java"
             target-dir="src/com/blakgeek/cordova/plugin/supersonicads" />
         <framework src="src/android/supersonicads.gradle" custom="true" type="gradleReference" />
-        <framework src="com.google.android.gms:play-services-ads:+" />
+        <framework src="com.google.android.gms:play-services-ads:16.0.0" />
     </platform>
 
     <platform name="ios">
